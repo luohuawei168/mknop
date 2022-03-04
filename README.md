@@ -80,7 +80,7 @@
       `sudo ./gen_openwrt -c` ，清理文件  
       `sudo ./gen_openwrt -d` ，使用默认配置  
       `sudo ./gen_openwrt -k latest` ，使用最新内核  
-      `sudo ./gen_openwrt -m vplus`，构建 vplus 固件  
+      `sudo ./gen_openwrt -m phicomm n1`，构建 phicomm n1 固件  
       `sudo ./gen_openwrt -s 512` ，将 ROOTFS 分区大小设置为 512M  
       `sudo ./gen_openwrt -d -k 5.4.68 -m vplus` ，使用默认，构建 vplus 固件，并将内核版本设置为 5.4.68  
       `sudo ./gen_openwrt -e` ，从 openwrt 目录中提取内核  
