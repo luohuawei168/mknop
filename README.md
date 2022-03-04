@@ -20,7 +20,7 @@
    一键安装到 emmc 脚本( phicomm n1 )已迁移至 openwrt package。使用方法如下，悉知！！**
 
    **用法**：  
-   1、`git clone https://github.com/luohuawei168/install-program package/install-program`  
+   1、`git clone https://github.com/luohuawei168/install-program`  
    2、执行 `make menuconfig` ，选中 Utilities 下的 install-program
       ``` 
       Utilities  --->  
