@@ -1,7 +1,7 @@
 # 自动构建斐讯 N1、微加云、贝壳云、我家云、S905x3( X96 Max Plus, HK1 Box ) OpenWrt 固件脚本
 # Automatically Build OpenWrt Firmware for Phicomm n1, Vplus, Beikeyun, L1-pro, S905x3( X96 Max Plus, HK1 Box ) etc
 
-**本项目来自[https://github.com/tuanqing/mknop](https://github.com/tuanqing/mknop)，并将Flippy所有现存内核逐一添加，以供有需要的朋友使用**
+**本项目来自[https://github.com/luohuawei168/mknop](https://github.com/luohuawei168/mknop)，并将Flippy所有现存内核逐一添加，以供有需要的朋友使用**
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/ylqjgm/mknop?label=%E9%A1%B9%E7%9B%AE%E5%A4%A7%E5%B0%8F&style=for-the-badge)
 
@@ -20,7 +20,7 @@
    一键安装到 emmc 脚本( phicomm n1 )已迁移至 openwrt package。使用方法如下，悉知！！**
 
    **用法**：  
-   1、`git clone https://github.com/tuanqing/install-program package/install-program`  
+   1、`git clone https://github.com/luohuawei168/install-program package/install-program`  
    2、执行 `make menuconfig` ，选中 Utilities 下的 install-program
       ``` 
       Utilities  --->  
@@ -30,7 +30,7 @@
    4、将固件上传到 `/tmp/upgrade`( xxx.img )，之后执行 `n1-update` 即可从该固件升级
 
 3. 克隆仓库到本地  
-   `git clone https://github.com/tuanqing/mknop` 
+   `git clone https://github.com/luohuawei168/mknop` 
 4. 将你编译好的固件拷贝到 openwrt 目录( 可复制多个 )
 5. 使用 root 执行脚本  
    `sudo ./gen_openwrt` 
