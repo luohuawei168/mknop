@@ -82,7 +82,7 @@
       `sudo ./gen_openwrt -k latest` ，使用最新内核  
       `sudo ./gen_openwrt -m phicomm-n1`，构建 phicomm0-n1 固件  
       `sudo ./gen_openwrt -s 512` ，将 ROOTFS 分区大小设置为 512M  
-      `sudo ./gen_openwrt -d -k 5.3.8 -m phicomm-n1` ，使用默认，构建 phicomm-n1 固件，并将内核版本设置为 5.3.8 
+      `sudo ./gen_openwrt -d -k 5.3.8 -m phicomm-n1` ，使用默认，构建 phicomm-n1 固件，并将内核版本设置为 5.3.8  
       `sudo ./gen_openwrt -e` ，从 openwrt 目录中提取内核
       `sudo ./gen_openwrt --mount` ，挂载 openwrt 目录中固件
 
